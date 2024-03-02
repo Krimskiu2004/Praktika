@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity2">
+
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logo"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tautor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BTPIT36"
+        android:textSize="25sp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="11dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/imageButton1"
+        app:layout_constraintStart_toEndOf="@id/imageButton1"/>
+    <TextView
+        android:id="@+id/tpublished"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="21 may 18:36"
+        android:textSize="10sp"
+        app:layout_constraintTop_toBottomOf="@id/tautor"
+        app:layout_constraintBottom_toBottomOf="@id/imageButton1"
+        app:layout_constraintStart_toEndOf="@id/imageButton1" />
+
+    <TextView
+        android:id="@+id/tcontent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="Да я ведь все сам!!! Все своими руками… Дом построил, сам! Вот этими вот руками. Сад посадил сам, своими руками, машину отремонтировал… Все САМ!!! Все своими руками… — Да, ты небось и не женат. — Нет, все сам, все своими руками"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageButton1" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="39dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="144dp"
+        android:background="@drawable/pngkkk"
+        app:layout_constraintTop_toTopOf="@+id/tcontent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="152dp"
+        android:text="0"
+        app:layout_constraintStart_toStartOf="@id/imageButton2"
+        app:layout_constraintTop_toTopOf="@id/tcontent" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="43dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="144dp"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toTopOf="@+id/tcontent"
+        app:srcCompat="@android:drawable/ic_menu_share" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="156dp"
+        android:text="980"
+        app:layout_constraintStart_toStartOf="@+id/imageButton3"
+        app:layout_constraintTop_toTopOf="@+id/tcontent" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="35dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="148dp"
+        app:layout_constraintStart_toStartOf="@+id/textView6"
+        app:layout_constraintTop_toTopOf="@+id/tcontent"
+        app:srcCompat="@android:drawable/ic_menu_view" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="9dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="156dp"
+        android:text="5"
+        app:layout_constraintStart_toEndOf="@+id/imageButton4"
+        app:layout_constraintTop_toTopOf="@+id/tcontent" />
+
+    <ImageButton
+        android:id="@+id/menu"
+        android:layout_width="28dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/more_menu_png"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="125dp"
+        android:autoLink="all"
+        android:gravity="center_vertical"
+        android:linksClickable="true"
+
+        android:text="ЮТУБ"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tcontent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

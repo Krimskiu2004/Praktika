@@ -3,5 +3,8 @@
     <style name="Base.Theme.Scheldan" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+
+        <item name="av1"> @color/white</item>
+        <item name="av2"> @color/black </item>
     </style>
 </resources>
